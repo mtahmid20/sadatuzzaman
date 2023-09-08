@@ -4,7 +4,7 @@ backend:
 
 local_backend: true
 # change url to a link to the image you want to use, no file paths, must be a URL
-logo_url: blob:https://sadatuzzaman-saagoto.netlify.app/25a139ff-b120-41d7-b1d3-c004a5e5dedc
+logo_url: 
 
 media_folder: "public/assets/images/blog"
 public_folder: "/assets/images/blog"
