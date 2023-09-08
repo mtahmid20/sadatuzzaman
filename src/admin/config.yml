@@ -4,7 +4,7 @@ backend:
 
 local_backend: true
 # change url to a link to the image you want to use, no file paths, must be a URL
-logo_url: 
+logo_url: https://lh3.googleusercontent.com/drive-viewer/AITFw-wl9VbXRMZp0fVT1bzbd0P0ireOkxIr8JLSChwKsDbF68A66gMxfnIzR__uLnFmmqGqeGecgAftDhsZaO8PHFhX48DX=s2560
 
 media_folder: "public/assets/images/blog"
 public_folder: "/assets/images/blog"
