@@ -1,11 +1,12 @@
 ---
 title: "Projects"
 description: "Meta description for the page"
-preloadImg: "/assets/images/cabinets2.jpg"
+preloadImg: "/assets/images/background-1.webp"
 permalink: "projects/"
 eleventyNavigation:
   key: Projects
-  order: 300
+  parent: Undergrad
+  order: 1000
 ---
 
 {% extends "layouts/base.html" %} {% block head %}
@@ -17,18 +18,21 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="int-hero">
-  <h1 id="home-h">Our Projects</h1>
+  <h1 id="home-h">My Projects</h1>
   <picture>
     <source
       media="(max-width: 600px)"
-      srcset="/assets/images/cabinets2-m.jpg"
+      srcset="/assets/images/background-1-m.webp"
     />
-    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg" />
+    <source
+      media="(min-width: 601px)"
+      srcset="/assets/images/background-1.webp"
+    />
     <img
       aria-hidden="true"
       decoding="async"
-      src="/assets/images/cabinets2.jpg"
-      alt="kitchen cabinets"
+      src="/assets/images/background-1.webp"
+      alt="background image"
       loading="eager"
       width="2500"
       height="1667"
